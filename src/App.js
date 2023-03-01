@@ -1,10 +1,11 @@
 import './App.css';
 import React from 'react';
 import ButtonAppBar from './NavBar';
-import Recipe from './Card';
 import Simple from './List';
-import qrcode from './QR_code.png';
+// import qrcode from './QR_code.png';
 import Logo from './logo.png';
+import Qrcodefunction from './Qrcode';
+import Generator from './QrCodeGenerator';
 
 
 
@@ -13,8 +14,8 @@ function App() {
     <div className="App">
     <ButtonAppBar />  
     <img src={Logo} alt="company logo" /><br></br>
-    <img src={qrcode} alt="qrcode" width="300" height="300" />
-    <Recipe />
+    <Qrcodefunction />
+    <Generator />
     <Simple />
     </div>
     
