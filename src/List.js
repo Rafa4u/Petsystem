@@ -14,12 +14,11 @@ export default function Simple() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>Accordion 1</Typography>
+          <Typography>Encontre seu Pet</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            Com nosso sistema voce encontra o seu pet facilmente
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -29,12 +28,11 @@ export default function Simple() {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography>Accordion 2</Typography>
+          <Typography>Pet finder</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            facíl de usar
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -44,7 +42,7 @@ export default function Simple() {
           aria-controls="panel3a-content"
           id="panel3a-header"
         >
-          <Typography>Disabled Accordion</Typography>
+          <Typography>Desabilitado</Typography>
         </AccordionSummary>
       </Accordion>
     </div>
