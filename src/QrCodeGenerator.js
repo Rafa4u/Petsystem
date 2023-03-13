@@ -1,5 +1,7 @@
 import QRCode from "qrcode";
 import { useEffect, useRef, useState } from "react";
+import './App.css';
+
 
 export default function Generator() {
   const [text, setText] = useState("");
@@ -16,7 +18,7 @@ export default function Generator() {
   }, [text]);
 
   return (
-    <div>
+    <div className="Divqrcode">
       <input
         value={text}
         onChange={(e) => setText(e.target.value)}

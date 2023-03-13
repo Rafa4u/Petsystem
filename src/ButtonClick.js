@@ -9,7 +9,7 @@ function myMessage(){
 export default function BasicButtons() {
   return (
     <Stack spacing={2} direction="row" justifyContent="center">
-      <Button variant="contained" onClick={myMessage}>Menssagem</Button>
+      <Button variant="contained" onClick={myMessage}>Mensagem</Button>
     </Stack>
   );
 }

@@ -25,7 +25,7 @@ export default function CheckboxesGroup() {
   const error = [gilad, jason, antoine].filter((v) => v).length !== 2;
 
   return (
-    <Box sx={{ display: 'right' }}>
+    <Box sx={{ display: 'flex', alignContent: 'flex-start'}}>
       <FormControl sx={{ m: 3 }} component="fieldset" variant="standard">
         <FormLabel component="legend">Marque responsabilidades</FormLabel>
         <FormGroup>
