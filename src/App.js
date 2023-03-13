@@ -2,12 +2,12 @@ import './App.css';
 import React from 'react';
 import ButtonAppBar from './NavBar';
 import Simple from './List';
-// import qrcode from './QR_code.png';
 import Logo from './logo.png';
 import Qrcodefunction from './Qrcode';
 import Generator from './QrCodeGenerator';
 import BasicButtons from './ButtonClick';
-import BasicSelect from './select';
+import BasicSelect from './Select';
+import CheckboxesGroup from './CheckBoxes';
 
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
     <Generator />
     <BasicButtons /> <br></br>
     <BasicSelect />
+    <CheckboxesGroup />
     <Simple />
     </div>
     
