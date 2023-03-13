@@ -7,7 +7,7 @@ import Logo from './logo.png';
 import Qrcodefunction from './Qrcode';
 import Generator from './QrCodeGenerator';
 import BasicButtons from './ButtonClick';
-
+import BasicSelect from './select';
 
 
 function App() {
@@ -17,7 +17,8 @@ function App() {
     <img src={Logo} alt="company logo" /><br></br>
     <Qrcodefunction />
     <Generator />
-    <BasicButtons />
+    <BasicButtons /> <br></br>
+    <BasicSelect />
     <Simple />
     </div>
     
