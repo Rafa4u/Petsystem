@@ -18,7 +18,7 @@ export default function Generator() {
   }, [text]);
 
   return (
-    <div className="Divqrcode">
+    <div id="Divqrcode">
       <input
         value={text}
         onChange={(e) => setText(e.target.value)}

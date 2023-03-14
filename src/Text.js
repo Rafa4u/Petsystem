@@ -5,7 +5,7 @@ import Typography from '@mui/material/Typography';
 export default function Types() {
   return (
     <Box sx={{ width: '100%', maxWidth: 700, alignContent: "center" }}>
-      <Typography variant="h4" gutterBottom>
+      <Typography variant="h4" gutterBottom id="Text">
       COMO FUNCIONA O CADASTRO?
       </Typography>
       <Typography variant="body1" gutterBottom id="Text">
