@@ -1,15 +1,15 @@
 import './App.css';
 import React from 'react';
-import ButtonAppBar from './NavBar';
-import Simple from './List';
+import ButtonAppBar from './Components/NavBar';
+import Simple from './Components/List';
 import Logo from './logo.png';
-import Qrcodefunction from './Qrcode';
-import Generator from './QrCodeGenerator';
-import BasicButtons from './ButtonClick';
-import BasicSelect from './Select';
-import CheckboxesGroup from './CheckBoxes';
+import Qrcodefunction from './Components/Qrcode';
+import Generator from './Components/QrCodeGenerator';
+import BasicButtons from './Components/ButtonClick';
+import BasicSelect from './Components/Select';
+import CheckboxesGroup from './Components/CheckBoxes';
 import Ad from './adbulldog.png';
-import Types from './Text';
+import Types from './Components/Text';
 
 function App() {
   return (
