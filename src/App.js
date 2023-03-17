@@ -10,6 +10,9 @@ import BasicSelect from './Components/Select';
 import CheckboxesGroup from './Components/CheckBoxes';
 import Ad from './adbulldog.png';
 import Types from './Components/Text';
+import Agenda from './Components/Agenda';
+import './Css/Agenda.css';
+
 
 function App() {
   return (
@@ -21,6 +24,8 @@ function App() {
     <Qrcodefunction />
     <Generator />
     <BasicButtons />
+    <br></br>
+    <Agenda />
     <BasicSelect /> 
     <CheckboxesGroup />
     <Simple />

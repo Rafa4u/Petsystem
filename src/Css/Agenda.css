@@ -1,0 +1,56 @@
+#Agenda {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+  
+  #Agendah2 {
+    font-size: 24px;
+    margin-top: 0;
+       
+  }
+  
+  #Agendaul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #Agendali {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  #Agendalibutton {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #1976d2;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #Agendalibutton:hover {
+    background-color: #ff0000;
+  }
+  
+  #Agendabutton {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #1976d2;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #Agendabutton:hover {
+    background-color: #666;
+  }
+  
