@@ -27,13 +27,14 @@
   }
   
   #Agendalibutton {
-    margin-left: 10px;
-    padding: 5px 10px;
+    margin-left: 20px;
+    padding: 10px 20px;
     border-radius: 5px;
     background-color: #1976d2;
     color: #fff;
     border: none;
     cursor: pointer;
+    font-size: 14px;
   }
   
   #Agendalibutton:hover {
@@ -41,13 +42,14 @@
   }
   
   #Agendabutton {
-    margin-top: 10px;
-    padding: 5px 10px;
+    margin-top: 20px;
+    padding: 15px 30px;
     border-radius: 5px;
     background-color: #1976d2;
     color: #ffffff;
     border: none;
     cursor: pointer;
+    font-size: 14px;
   }
   
   #Agendabutton:hover {

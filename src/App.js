@@ -11,8 +11,7 @@ import CheckboxesGroup from './Components/CheckBoxes';
 import Ad from './adbulldog.png';
 import Types from './Components/Text';
 import Agenda from './Components/Agenda';
-import './Css/Agenda.css';
-
+import NutritionTable from './Components/Table';
 
 function App() {
   return (
@@ -25,6 +24,23 @@ function App() {
     <Generator />
     <BasicButtons />
     <br></br>
+    <NutritionTable data={{
+  calories: 250,
+  totalFat: 12,
+  saturatedFat: 4,
+  transFat: 0,
+  cholesterol: 60,
+  sodium: 380,
+  totalCarbohydrate: 32,
+  dietaryFiber: 3,
+  sugars: 8,
+  protein: 6,
+  vitaminA: 10,
+  vitaminC: 4,
+  calcium: 20,
+  iron: 8
+}} />
+<br></br>
     <Agenda />
     <BasicSelect /> 
     <CheckboxesGroup />

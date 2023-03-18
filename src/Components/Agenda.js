@@ -17,7 +17,7 @@ const Agenda = () => {
 
   return (
     <div id="Agenda">
-      <h2 id="Agendah2">Lista de compras</h2>
+      <h2 id="Agendah2">Lista de compras:</h2>
       <ul id="Agendaul">
         {items.map((item, index) => (
           <li key={index} id="Agendali">

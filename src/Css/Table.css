@@ -1,0 +1,35 @@
+.table {
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    width: 70%;
+    border: 3px solid rgb(0, 0, 0);
+    
+}
+
+.thead {
+    background-color: #1976d2; 
+}
+
+.th {
+
+    color: #ffffff;
+    align-items: center;
+    text-align: left;
+    padding: 20px;
+    
+
+}
+
+.tbody {
+    background-color: #1976d248;
+}
+
+td, tr {
+    color: #000000;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    
+}
