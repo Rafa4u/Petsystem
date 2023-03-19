@@ -3,14 +3,14 @@ import '../Css/Table.css';
 
 const NutritionTable = ({ data }) => {
   return (
-    <table className='table'>
-      <thead className='thead'>
-        <tr className='table'>
-          <th className='th'>Nutrient</th>
-          <th className='th'>Amount per serving</th>
+    <table>
+      <thead>
+        <tr>
+          <th>Nutrient</th>
+          <th>Amount per serving</th>
         </tr>
       </thead>
-      <tbody className='tbody'>
+      <tbody>
         <tr>
           <td>Calories</td>
           <td>{data.calories} kcal</td>

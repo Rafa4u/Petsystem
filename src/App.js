@@ -24,6 +24,8 @@ function App() {
     <Generator />
     <BasicButtons />
     <br></br>
+    <Agenda />
+    <br></br>
     <NutritionTable data={{
   calories: 250,
   totalFat: 12,
@@ -41,7 +43,6 @@ function App() {
   iron: 8
 }} />
 <br></br>
-    <Agenda />
     <BasicSelect /> 
     <CheckboxesGroup />
     <Simple />

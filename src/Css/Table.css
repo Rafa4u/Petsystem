@@ -1,17 +1,18 @@
-.table {
+table {
     border-collapse: collapse;
     border: 1px solid #ddd;
     font-size: 18px;
-    width: 70%;
+    width: 50%;
     border: 3px solid rgb(0, 0, 0);
+    table-layout: auto;   
     
 }
 
-.thead {
+thead {
     background-color: #1976d2; 
 }
 
-.th {
+th {
 
     color: #ffffff;
     align-items: center;
@@ -21,15 +22,27 @@
 
 }
 
-.tbody {
+tbody {
     background-color: #1976d248;
+    cursor: pointer;
 }
 
-td, tr {
+td {
     color: #000000;
     padding-left: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
+    cursor: pointer;
+    background-color: #ffffff;
     
     
 }
+
+tr {
+    color: #000000;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
