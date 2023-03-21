@@ -12,6 +12,8 @@ import Ad from './Pictures/adbulldog.png';
 import Types from './Components/Text';
 import Agenda from './Components/Agenda';
 import NutritionTable from './Components/Table';
+import MySome from './Components/MySome';
+
 
 function App() {
   return (
@@ -25,6 +27,7 @@ function App() {
     <BasicButtons />
     <br></br>
     <Agenda />
+    <MySome num1={10} num2={5} /> 
     <br></br>
     <NutritionTable data={{
   calories: 250,
