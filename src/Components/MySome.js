@@ -1,17 +1,14 @@
 import React from "react";
-import '../Css/MySome.css';
-
+import "../Css/MySome.css";
 
 function MySome(props) {
-  const { num1, num2 } = props;
+  const { num1, num2, num3 } = props;
 
-    return ( 
+  return (
     <div id="DivMySome">
-    <p>sua soma é: {num1 + num2}</p>
+      <p>Sua soma é: {(num1 + num2) * num3}</p>
     </div>
-    );
-  }
-  
-  export default MySome;
+  );
+}
 
-  
+export default MySome;

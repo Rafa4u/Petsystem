@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
-import '../Css/Agenda.css';
+import React, { useState } from "react";
+import "../Css/Agenda.css";
 
 const Agenda = () => {
   const [items, setItems] = useState([]);
 
   const handleAddItem = () => {
-    const newItem = prompt('Adicione um item:');
+    const newItem = prompt("Adicione um item:");
     setItems([...items, newItem]);
   };
 
@@ -21,12 +21,16 @@ const Agenda = () => {
       <ul id="Agendaul">
         {items.map((item, index) => (
           <li key={index} id="Agendali">
-            {item}{' '}
-            <button onClick={() => handleDeleteItem(index)} id="Agendalibutton">Delete</button>
+            {item}{" "}
+            <button onClick={() => handleDeleteItem(index)} id="Agendalibutton">
+              Delete
+            </button>
           </li>
         ))}
       </ul>
-      <button onClick={handleAddItem} id="Agendabutton">Adicione um produto</button>
+      <button onClick={handleAddItem} id="Agendabutton">
+        Adicione um produto
+      </button>
     </div>
   );
 };

@@ -1,5 +1,5 @@
-import React from 'react';
-import '../Css/Table.css';
+import React from "react";
+import "../Css/Table.css";
 
 const NutritionTable = ({ data }) => {
   return (

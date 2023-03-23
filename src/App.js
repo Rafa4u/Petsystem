@@ -27,7 +27,8 @@ function App() {
     <BasicButtons />
     <br></br>
     <Agenda />
-    <MySome num1={10} num2={5} /> 
+    <br></br>
+    <MySome num1={10} num2={5} num3={2} /> 
     <br></br>
     <NutritionTable data={{
   calories: 250,

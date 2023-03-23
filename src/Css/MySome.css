@@ -1,9 +1,11 @@
 #DivMySome {
     border: 10px;
-    fill: black;
     color:rgb(255, 0, 0);
     background-color: black;
     font-size: 36px;
     text-align: center;
+    padding: 1px;
+    size: 50%;
+
 
 }
